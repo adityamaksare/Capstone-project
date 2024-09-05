@@ -77,7 +77,36 @@ font-size: 46px;
 font-weight: 500;
 }
 
+.card-component {
+  max-width:258.36px ;
+  max-height: fit-content;
+  background-color: #EDEFEE;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur, Spread, Color */
+  border-radius: 16px; /* Optional for rounded corners */
+  transition: all 0.3s ease; /* Smooth hover transition */
+}
 
+.card-title {
+  margin: 15px 15px;
+  font-family: Markazi Text, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  max-width: fit-content;
+}
+
+.price-tag {
+margin: 15px 15px;
+font-family: Karla, sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #EE9972;
+}
+
+.card-text {
+  font-family: Karla, sans-serif;
+  font-size: 300;
+  padding: 0px 15px;
+}
 
 
 
