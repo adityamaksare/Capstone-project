@@ -51,5 +51,33 @@ button {
   border-radius: 15px;
   margin: 20px 0px;
   border:none ;
-
 }
+
+.overlap-img {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  right: 130px;
+  border-radius: 19px;
+}
+
+@media (max-width: 768px) {
+  .overlap-img {
+    top: -50px;  /* Adjust for smaller screens */
+    right: -50px; /* Adjust for smaller screens */
+    width: 200px; /* Scale the image down on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .overlap-img {
+    top: 0;
+    right: 0;
+    width: 150px;  /* Further scale down for mobile */
+    position: static; /* Remove absolute positioning for very small screens */
+    margin: 0 auto;  /* Center the image on small screens */
+  }
+}
+
+/* Hero section ends here */
