@@ -62,11 +62,39 @@ button {
   border-radius: 19px;
 }
 
+
+/* Hero section ends here */
+
+
+/* highlights section starts  */
+.highlights {
+  margin-top: 128px
+}
+
+.highlights > h1 {
+font-family: Markazi Text, serif;
+font-size: 46px;
+font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive code */
 @media (max-width: 768px) {
   .overlap-img {
-    top: -50px;  /* Adjust for smaller screens */
-    right: -50px; /* Adjust for smaller screens */
-    width: 200px; /* Scale the image down on smaller screens */
+    top: -200px;  /* Adjust for smaller screens */
+    right: 140px; /* Adjust for smaller screens */
+    width: 150px; /* Scale the image down on smaller screens */
+  }
+  .highlights {
+    margin-top: 50px;
   }
 }
 
@@ -78,6 +106,7 @@ button {
     position: static; /* Remove absolute positioning for very small screens */
     margin: 0 auto;  /* Center the image on small screens */
   }
+  .highlights {
+    margin-top: 0px;
+  }
 }
-
-/* Hero section ends here */
