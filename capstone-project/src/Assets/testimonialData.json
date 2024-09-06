@@ -1,0 +1,32 @@
+
+{
+  "Testimonials": [
+    {
+      "name": "Denial R.",
+      "image": {
+        "src": "https://images.pexels.com/photos/27178522/pexels-photo-27178522/free-photo-of-office-chic-cyewear.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "width": "94px",
+        "height": "94px"
+      },
+      "text": "The food at Little Lemon was decent, but not extraordinary. I had the lemon garlic shrimp, which was tasty but lacked the wow factor I was hoping for."
+    },
+    {
+      "name": "Sarah M.",
+      "image": {
+        "src": "https://images.pexels.com/photos/27665351/pexels-photo-27665351/free-photo-of-a-little-girl-that-is-smiling.jpeg?auto=compress&cs=tinysrgb&w=1260&h=700&dpr=1",
+        "width": "94px",
+        "height": "94px"
+      },
+      "text": "Little Lemon is a gem! The ambiance is cozy and welcoming, making it a perfect spot for a date night or a casual dinner with friends. The lemon chicken was absolutely delicious, perfectly seasoned"
+    },
+    {
+      "name": "Emily K.",
+      "image": {
+        "src": "https://images.pexels.com/photos/19065036/pexels-photo-19065036/free-photo-of-anis.jpeg",
+        "width": "94px",
+        "height": "94px"
+      },
+      "text":"I absolutely loved Little Lemon! I tried the lemon herb salmon, and it was cooked to perfection. The atmosphere is bright and cheerful, and the service was quick and friendly."
+    }
+  ]
+}
