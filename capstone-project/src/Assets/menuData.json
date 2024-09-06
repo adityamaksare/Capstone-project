@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "name": "Margherita Pizza",
+      "image": {
+        "url": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$9.99",
+      "description": "Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil leaves."
+    },
+    {
+      "name": "Chicken Burger",
+      "image": {
+        "url": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$7.49",
+      "description": "Juicy grilled chicken patty with lettuce, tomato, and special sauce on a sesame bun."
+    },
+    {
+      "name": "Caesar Salad",
+      "image": {
+        "url": "https://images.pexels.com/photos/14775661/pexels-photo-14775661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$6.99",
+      "description": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing."
+    },
+    {
+      "name": "Chocolate Brownie",
+      "image": {
+        "url": "https://images.pexels.com/photos/14136384/pexels-photo-14136384.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$3.99",
+      "description": "Rich and fudgy chocolate brownie with a hint of vanilla and nuts."
+    },
+    {
+      "name": "Mango Smoothie",
+      "image": {
+        "url": "https://images.pexels.com/photos/24869018/pexels-photo-24869018/free-photo-of-a-yellow-drink-with-a-chili-pepper-on-top.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$4.49",
+      "description": "Creamy and refreshing mango smoothie made with fresh mangoes and yogurt."
+    },
+    {
+      "name": "Mango Smoothie",
+      "image": {
+        "url": "https://images.pexels.com/photos/24869018/pexels-photo-24869018/free-photo-of-a-yellow-drink-with-a-chili-pepper-on-top.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "width": "258px",
+        "height": "181px"
+      },
+      "price": "$4.49",
+      "description": "Creamy and refreshing mango smoothie made with fresh mangoes and yogurt."
+    }
+  ]
+}
