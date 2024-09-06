@@ -13,20 +13,17 @@ const MenuCardComponent = ({ item }) => {
           style={{ borderTopLeftRadius: "16px", borderTopRightRadius: "16px" }}
         />
         <div className="card-body">
-          <div className="justify-content-between" style={{ display: "flex" }}>
+          <div className="d-flex justify-content-between">
             <h5 className="card-title" style={{ margin: "15px 20px" }}>
               {item.name}
             </h5>
             <p className="price-tag">{item.price}</p>
           </div>
-
           <p className="card-text">{item.description}</p>
-          <div
-            href="/"
-            className="order-delivery d-flex justify-content-between"
-            style={{ padding: "0px 20px" }}
-          >
-            <p style={{ textDecoration: "none" }}>Order a delivery</p>
+          <div className="order-delivery d-flex justify-content-between px-3">
+            <p style={{ fontFamily: "Karla", fontWeight: "700" }}>
+              Order a delivery
+            </p>
             <img
               style={{ height: "18px", width: "25px" }}
               src={BikeImage}
@@ -42,9 +39,18 @@ const MenuCardComponent = ({ item }) => {
 export const Highlights = () => {
   return (
     <div className="container highlights p-5">
-      <h1 className=" mb-4" style={{ marginLeft: "100px" }}>
-        This Week's Special!
-      </h1>
+      <div
+        style={{ padding: "0px 85px" }}
+        className="row d-flex align-items-center mb-3"
+      >
+        <div className="col-12 col-md-6 text-center text-md-start">
+          <h1>This Week's Special!</h1>
+        </div>
+        <div className="col-12 col-md-6 text-center text-md-end">
+          <button>Order Online</button>
+        </div>
+      </div>
+
       <div className="row g-3 px-2 px-md-4">
         {menuData.menu.slice(0, 3).map((item, index) => (
           <div
