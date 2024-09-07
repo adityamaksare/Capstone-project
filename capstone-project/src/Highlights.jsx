@@ -12,9 +12,9 @@ const MenuCardComponent = ({ item }) => {
           alt={item.name}
           style={{ borderTopLeftRadius: "16px", borderTopRightRadius: "16px" }}
         />
-        <div className="card-body">
+        <div className="card-body m-0">
           <div className="d-flex justify-content-between">
-            <h5 className="card-title" style={{ margin: "15px 20px" }}>
+            <h5 className="card-title" style={{ margin: "15px 15px" }}>
               {item.name}
             </h5>
             <p className="price-tag">{item.price}</p>
@@ -38,24 +38,24 @@ const MenuCardComponent = ({ item }) => {
 
 export const Highlights = () => {
   return (
-    <div className="container highlights p-5">
-      <div
-        style={{ padding: "0px 85px" }}
-        className="row d-flex align-items-center mb-3"
-      >
-        <div className="col-12 col-md-6 text-center text-md-start">
-          <h1>This Week's Special!</h1>
+    <div
+      className="container highlights"
+      style={{ padding: "30px 0px 50px 0px" }}
+    >
+      <div className="row d-flex align-items-center mb-3">
+        <div className="col-12 col-md-6 text-center text-md-start p-0">
+          <h1 className="m-5">This Week's Special!</h1>
         </div>
         <div className="col-12 col-md-6 text-center text-md-end">
           <button>Order Online</button>
         </div>
       </div>
 
-      <div className="row g-3 px-2 px-md-4">
-        {menuData.menu.slice(0, 3).map((item, index) => (
+      <div className="row g-3">
+        {menuData.menu.slice(0, 4).map((item, index) => (
           <div
             key={index}
-            className="col-12 col-md-6 col-lg-4 d-flex justify-content-center"
+            className="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
           >
             <MenuCardComponent item={item} />
           </div>

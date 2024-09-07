@@ -8,7 +8,7 @@
         "height": "181px"
       },
       "price": "$9.99",
-      "description": "Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil leaves."
+      "description": "Classic Margherita pizza topped with fresh mozzarella, basil leaves, and tangy tomato sauce on a crispy thin crust.."
     },
     {
       "name": "Chicken Burger",
@@ -18,7 +18,7 @@
         "height": "181px"
       },
       "price": "$7.49",
-      "description": "Juicy grilled chicken patty with lettuce, tomato, and special sauce on a sesame bun."
+      "description": "Juicy grilled chicken burger with fresh lettuce, ripe tomato, and special sauce."
     },
     {
       "name": "Caesar Salad",
@@ -28,7 +28,7 @@
         "height": "181px"
       },
       "price": "$6.99",
-      "description": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing."
+      "description": "Crisp romaine lettuce, Parmesan cheese, and creamy Caesar dressing with crunchy croutons."
     },
     {
       "name": "Chocolate Brownie",
@@ -38,7 +38,7 @@
         "height": "181px"
       },
       "price": "$3.99",
-      "description": "Rich and fudgy chocolate brownie with a hint of vanilla and nuts."
+      "description": "Rich chocolate brownie topped with fudge sauce and served with a scoop of vanilla ice cream.."
     },
     {
       "name": "Mango Smoothie",

@@ -1,9 +1,8 @@
-import './App.css';
 import { Navbar } from './Navbar';
 import { Hero } from './Hero';
 import { Highlights } from './Highlights';
 import { Testimonials } from './Testimonials';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import { AboutSection } from './AboutSection';
 
 
 function App() {
@@ -13,6 +12,7 @@ function App() {
      <Hero/>
      <Highlights/>
      <Testimonials/>
+     <AboutSection/>
     </div>
   );
 }

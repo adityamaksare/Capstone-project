@@ -112,6 +112,13 @@ color: #EE9972;
 /* Highlisghts section ends */
 
 
+/* About section starts */
+.about-text {
+font-family: Karla, sans-serif;
+font-weight:bold ;
+font-size: 19px;
+}
+
 
 
 
@@ -128,6 +135,10 @@ color: #EE9972;
   .highlights {
     margin-top: 50px;
   }
+
+  .aboutImage2{
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -141,4 +152,8 @@ color: #EE9972;
   .highlights {
     margin-top: 0px;
   }
+.aboutImage2{
+    display: none;
+  }
+
 }
