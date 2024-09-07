@@ -8,12 +8,15 @@ export const Footer = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 footer-logo">
-            <img
-              src={verticalLogo}
-              alt="Little Lemon Logo"
-              style={{ maxWidth: "162px" }}
-            />
+            <Link to="/">
+              <img
+                src={verticalLogo}
+                alt="Little Lemon Logo"
+                style={{ maxWidth: "162px" }}
+              />{" "}
+            </Link>
           </div>
+
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5">
             <h6>Navigation</h6>
             <div className="navlinks d-flex flex-column">
