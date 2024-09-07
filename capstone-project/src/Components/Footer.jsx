@@ -1,5 +1,6 @@
 import React from "react";
 import verticalLogo from "../Assets/verticalLogo.png";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -16,24 +17,24 @@ export const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5">
             <h6>Navigation</h6>
             <div className="navlinks d-flex flex-column">
-              <a className="navlink-footer" href="">
+              <Link className="navlink-footer" to="/">
                 Home
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link className="navlink-footer" to="/about">
                 About
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link className="navlink-footer" to="/menu">
                 Menu
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link className="navlink-footer" to="/reservation">
                 Reservation
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link className="navlink-footer" to="/orderonline">
                 Order Online
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link className="navlink-footer" to="/login">
                 Login
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5">
@@ -48,15 +49,30 @@ export const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5">
             <h6>Social Media Links</h6>
             <div className="navlinks d-flex flex-column">
-              <a className="navlink-footer" href="">
+              <Link
+                className="navlink-footer"
+                to="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Facebook
-              </a>
-              <a className="navlink-footer" href="">
+              </Link>
+              <Link
+                className="navlink-footer"
+                to="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Instagram
-              </a>
-              <a className="navlink-footer" href="x.com">
+              </Link>
+              <Link
+                className="navlink-footer"
+                to="https://www.x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Twitter
-              </a>
+              </Link>
             </div>
           </div>
         </div>

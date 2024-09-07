@@ -1,6 +1,7 @@
 import React from "react";
 import BikeImage from "../Assets/Bike.png";
 import menuData from "../Assets/menuData.json";
+import { useNavigate } from "react-router-dom";
 
 const MenuCardComponent = ({ item }) => {
   return (
@@ -37,6 +38,7 @@ const MenuCardComponent = ({ item }) => {
 };
 
 export const Highlights = () => {
+  const navigate = useNavigate(); // React Router hook
   return (
     <div
       className="container highlights"
@@ -47,7 +49,9 @@ export const Highlights = () => {
           <h1 className="m-5">This Week's Special!</h1>
         </div>
         <div className="col-12 col-md-6 text-center text-md-end">
-          <button>Order Online</button>
+          <button onClick={() => navigate("./orderonline")}>
+            Order Online
+          </button>
         </div>
       </div>
 

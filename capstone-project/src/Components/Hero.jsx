@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import OverlapImage from "../Assets/restaurantfood.jpg";
 
 export const Hero = () => {
+  const navigate = useNavigate(); // React Router hook
+
   return (
     <div className="container-fluid p-0" style={{ backgroundColor: "#495E57" }}>
       <div className="container hero-section p-0 ">
@@ -10,10 +13,12 @@ export const Hero = () => {
             <h1 className="m-0 little-lemon-heading mt-5 ml-5">Little Lemon</h1>
             <h2 className="hero-chicago">Chicago</h2>
             <p className="brand-statement">
-              We are family owned Mediterranean restaurant, focused on
+              We are a family-owned Mediterranean restaurant, focused on
               traditional recipes and served with a modern twist.
             </p>
-            <button>Reserve a table</button>
+            <button onClick={() => navigate("/reservation")}>
+              Reserve a table
+            </button>
           </div>
 
           {/* Image Overlapping Section */}

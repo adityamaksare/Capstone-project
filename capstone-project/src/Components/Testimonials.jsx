@@ -21,7 +21,7 @@ const TestimonialCardComponent = ({ testimonial }) => {
       <div className="card-body text-left">
         {" "}
         {/* Center aligned content */}
-        <h5 className="card-title mb-2">{testimonial.name}</h5>
+        <h5 className="card-title">{testimonial.name}</h5>
         <p className="card-text text-muted">{`" ${testimonial.text} "`}</p>
       </div>
     </div>
