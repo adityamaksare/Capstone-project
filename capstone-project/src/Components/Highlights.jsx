@@ -1,6 +1,6 @@
 import React from "react";
-import BikeImage from "./Assets/Bike.png";
-import menuData from "./Assets/menuData.json";
+import BikeImage from "../Assets/Bike.png";
+import menuData from "../Assets/menuData.json";
 
 const MenuCardComponent = ({ item }) => {
   return (
@@ -64,3 +64,5 @@ export const Highlights = () => {
     </div>
   );
 };
+
+export default Highlights;

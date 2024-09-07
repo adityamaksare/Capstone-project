@@ -1,20 +1,17 @@
-import { Navbar } from './Navbar';
-import { Hero } from './Hero';
-import { Highlights } from './Highlights';
-import { Testimonials } from './Testimonials';
-import { AboutSection } from './AboutSection';
-import { Footer } from './Footer';
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import { Homepage } from "./Pages/Homepage";
+
 
 
 function App() {
   return (
     <div className="App container-fluid p-0 m-0">
-     <Navbar/>
-     <Hero/>
-     <Highlights/>
-     <Testimonials/>
-     <AboutSection/>
-     <Footer/>
+      <Navbar/>
+    {/* ----- */}
+      <Homepage/>
+      {/* ------ */}
+      <Footer/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import AboutImage1 from "./Assets/aboutImage1.jpg";
-import AboutImage2 from "./Assets/aboutImage2.jpg";
+import AboutImage1 from "../Assets/aboutImage1.jpg";
+import AboutImage2 from "../Assets/aboutImage2.jpg";
 
 export const AboutSection = () => {
   return (
@@ -60,3 +60,5 @@ export const AboutSection = () => {
     </div>
   );
 };
+
+export default AboutSection;

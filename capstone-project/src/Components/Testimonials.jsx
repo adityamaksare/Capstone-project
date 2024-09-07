@@ -1,5 +1,5 @@
 import React from "react";
-import testimonialData from "./Assets/testimonialData.json"; // Import the JSON data
+import testimonialData from "../Assets/testimonialData.json"; // Import the JSON data
 
 const TestimonialCardComponent = ({ testimonial }) => {
   return (
@@ -60,3 +60,5 @@ export const Testimonials = () => {
     </div>
   );
 };
+
+export default Testimonials;

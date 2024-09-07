@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Assets/Logo.svg";
+import Logo from "../Assets/Logo.svg";
 
 export const Navbar = () => {
   return (
@@ -61,3 +61,5 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;

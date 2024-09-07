@@ -1,5 +1,5 @@
 import React from "react";
-import OverlapImage from "./Assets/restaurantfood.jpg";
+import OverlapImage from "../Assets/restaurantfood.jpg";
 
 export const Hero = () => {
   return (
@@ -29,3 +29,5 @@ export const Hero = () => {
     </div>
   );
 };
+
+export default Hero;

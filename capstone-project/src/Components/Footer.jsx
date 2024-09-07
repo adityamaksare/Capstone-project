@@ -1,5 +1,5 @@
 import React from "react";
-import verticalLogo from "./Assets/verticalLogo.png";
+import verticalLogo from "../Assets/verticalLogo.png";
 
 export const Footer = () => {
   return (
@@ -54,7 +54,7 @@ export const Footer = () => {
               <a className="navlink-footer" href="">
                 Instagram
               </a>
-              <a className="navlink-footer" href="">
+              <a className="navlink-footer" href="x.com">
                 Twitter
               </a>
             </div>
@@ -64,3 +64,5 @@ export const Footer = () => {
     </div>
   );
 };
+
+export default Footer;
