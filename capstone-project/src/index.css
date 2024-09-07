@@ -156,7 +156,7 @@ h6{
 
 
 /* hero section img */
-  .overlap-img {
+  .overlap-img,  .footer-navigation-links {
     display: none;
   }
 
@@ -176,7 +176,7 @@ h6{
     display: none;
   }
 
-  .footer-logo {
+  .footer-logo,  .footer-navigation-links {
     display: none;
   }
 

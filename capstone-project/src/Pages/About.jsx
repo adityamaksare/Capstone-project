@@ -7,7 +7,7 @@ export const About = () => {
     <div>
       <div className="container p-0">
         <div className="row m-0 p-3">
-          <div className="col-lg-6 col-md-6 col-sm-12 p-0 py-5 ">
+          <div className="col-lg-6 col-md-12 col-sm-12 p-0 py-5 d-flex flex-column align-items-center">
             <img
               style={{ borderRadius: "10px" }}
               className="mb-3"
@@ -20,7 +20,7 @@ export const About = () => {
               alt="team group"
             />
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 p-0 py-5">
+          <div className="col-lg-6 col-md-12 col-sm-12 p-0 py-5 d-flex flex-column align-items-center">
             <h2
               className="mb-3"
               style={{

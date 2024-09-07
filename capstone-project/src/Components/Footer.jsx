@@ -17,7 +17,7 @@ export const Footer = () => {
             </Link>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5">
+          <div className="col-lg-3 col-md-6 col-sm-12 p-0 pt-5 footer-navigation-links">
             <h6>Navigation</h6>
             <div className="navlinks d-flex flex-column">
               <Link className="navlink-footer" to="/">
