@@ -4,9 +4,9 @@ import AboutImage2 from "./Assets/aboutImage2.jpg";
 
 export const AboutSection = () => {
   return (
-    <div className="container p-0 justify-content-center align-items-center">
-      <div className="container m-0 row" style={{ padding: "60px 0px" }}>
-        <div className="left-side col-lg-6 col-md-6 col-sm-12 p-0">
+    <div className=" container p-0 justify-content-center align-items-center">
+      <div className="  container m-0 row" style={{ padding: "60px 0px" }}>
+        <div className="about-section left-side col-lg-6 col-md-6 col-sm-12 p-0">
           <h1 className="little-lemon-heading">Little Lemon</h1>
           <h2 className="hero-chicago" style={{ color: "#495E57" }}>
             Chicago

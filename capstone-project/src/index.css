@@ -120,7 +120,21 @@ font-size: 19px;
 }
 
 
+/* Footer */
+.navlink-footer {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Karla, sans-serif;
+}
 
+h6 {
+  font-family: karla, sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 18px;
+}
 
 
 
@@ -139,21 +153,33 @@ font-size: 19px;
   .aboutImage2{
     display: none;
   }
+
+
+/* hero section img */
+  .overlap-img {
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 576px) {
+
   .overlap-img {
-    top: 0;
-    right: 0;
-    width: 150px;  /* Further scale down for mobile */
-    position: static; /* Remove absolute positioning for very small screens */
-    margin: 0 auto;  /* Center the image on small screens */
+    display: none;
   }
+
   .highlights {
     margin-top: 0px;
   }
 .aboutImage2{
     display: none;
   }
+
+  .footer-logo {
+    display: none;
+  }
+
+
 
 }
