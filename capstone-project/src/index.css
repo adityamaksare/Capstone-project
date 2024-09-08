@@ -183,3 +183,15 @@ h6{
 
 
 }
+
+
+/* login form */
+.login-form-leftside {
+  background-color: #495E57;
+}
+
+.login-form { 
+  max-width: 756px;
+  max-height: 548px;
+}
+

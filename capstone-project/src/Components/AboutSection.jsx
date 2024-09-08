@@ -11,14 +11,14 @@ export const AboutSection = () => {
           <h2 className="hero-chicago" style={{ color: "#495E57" }}>
             Chicago
           </h2>
-          <p className="about-text mt-5">
+          <article className="about-text mt-5">
             Mario and Adrian are talented chefs at Little Lemon, a renowned
             restaurant known for its exceptional cuisine. Mario, with his
             expertise in Italian dishes, brings a touch of classic elegance to
             the menu, creating dishes that are both authentic and innovative.
             His passion for fresh ingredients and attention to detail make each
             meal a memorable experience.
-          </p>
+          </article>
         </div>
         <div
           className="rightside col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center"

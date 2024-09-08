@@ -32,7 +32,7 @@ export const About = () => {
             >
               "Good food, good vibes, and great company."
             </h2>
-            <p
+            <article
               className="about-text"
               style={{ fontSize: "18px", maxWidth: "550px" }}
             >
@@ -49,7 +49,7 @@ export const About = () => {
               exploring new culinary horizons and making a positive impact on
               our community. We invite you to join us on this journey and
               experience the magic of Little Lemon."
-            </p>
+            </article>
           </div>
         </div>
       </div>
