@@ -14,13 +14,22 @@ const MenuCardComponent = ({ item }) => {
           style={{ borderTopLeftRadius: "16px", borderTopRightRadius: "16px" }}
         />
         <div className="card-body m-0">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex flex-row justify-content-between">
             <h5 className="card-title" style={{ margin: "15px 15px" }}>
               {item.name}
             </h5>
-            <p className="price-tag">{item.price}</p>
+            <p
+              className="price-tag text-yellow"
+              style={{
+                margin: "15px 5px",
+                fontWeight: "500",
+                color: "Orange",
+              }}
+            >
+              {item.price}
+            </p>
           </div>
-          <p className="card-text">{item.description}</p>
+          <p className="card-text px-3">{item.description}</p>
           <div className="order-delivery d-flex justify-content-between px-3">
             <p style={{ fontFamily: "Karla", fontWeight: "700" }}>
               Order a delivery
