@@ -9,7 +9,7 @@ export const Hero = () => {
     <div className="container-fluid p-0" style={{ backgroundColor: "#495E57" }}>
       <div className="container hero-section p-0 ">
         <div className="row m-0">
-          <div className="col-12 col-md-6 d-flex flex-column align-items-start justify-content-left p-0">
+          <div className=" col-md-6 col-lg-6 col-sm-12 d-flex flex-column align-items-start justify-content-left p-0">
             <h1 className="m-0 little-lemon-heading mt-5 ml-5">Little Lemon</h1>
             <h2 className="hero-chicago">Chicago</h2>
             <p className="brand-statement">

@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const Orderonline = () => {
   const [quantity, setQuantity] = useState(1);
@@ -30,10 +29,14 @@ export const Orderonline = () => {
   return (
     <section className="container p-5">
       <div className="row g-3">
+        {/* Greek Salad Card */}
         <div className="col-lg-6 col-md-12 col-sm-12">
           <div
             className="card mx-auto"
-            style={{ width: "20rem", borderRadius: "15px" }}
+            style={{
+              borderRadius: "15px",
+              maxWidth: "300px", // Adjusted the card width
+            }}
           >
             {/* Image */}
             <img
@@ -93,17 +96,18 @@ export const Orderonline = () => {
                   +
                 </button>
               </div>
-
-              <div className="d-flex justify-content-center"></div>
             </div>
           </div>
         </div>
 
+        {/* Order Summary Card */}
         <div className="col-lg-6 col-md-12 col-sm-12">
-          {" "}
           <div
-            className="card mx-auto "
-            style={{ width: "18rem", borderRadius: "15px" }}
+            className="card mx-auto"
+            style={{
+              borderRadius: "15px",
+              maxWidth: "300px", // Adjusted the card width
+            }}
           >
             {/* Card Body */}
             <div className="card-body">
