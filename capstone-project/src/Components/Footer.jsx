@@ -13,7 +13,7 @@ export const Footer = () => {
                 src={verticalLogo}
                 alt="Little Lemon Logo"
                 style={{ maxWidth: "162px" }}
-              />{" "}
+              />
             </Link>
           </div>
 

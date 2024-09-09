@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import SignIn from "../Components/SignIn";
-import SignUpForm from "../Components/SignUp";
+import { SignUp } from "../Components/SignUp";
 
 export const LoginPage = () => {
+  const [isSignIn, setIsSignIn] = useState(true);
+
+  const toggleForm = () => {
+    setIsSignIn(!isSignIn);
+  };
+
   return (
-    <div className="container d-flex flex-column align-items-center">
-      <SignIn />
-      <SignUpForm />
+    <div>
+      {isSignIn ? (
+        <SignIn toggleForm={toggleForm} />
+      ) : (
+        <SignUp toggleForm={toggleForm} />
+      )}
     </div>
   );
 };
